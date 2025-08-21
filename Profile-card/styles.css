@@ -6,10 +6,10 @@
 body {
   font-family: "Play", sans-serif;
   background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
-  background-position: top right, bottom left;
+  background-position: top -100px left -100px, bottom -100px right -100px;
   background-repeat: no-repeat, no-repeat;
   background-size: 700px, 700px;
-  background-color: #1e7c85;
+  background-color: #19a2ae;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,10 +42,10 @@ body {
   margin: 10px 0 5px;
   color: #2d3248;
 }
-.card-content p {
-  font-size: 1px;
-  color: #979cad;
-  margin: 0;
+.location {
+  font-size: 14px;
+  color: #6a6f81;
+
 }
 .grey {
   display: flex;
